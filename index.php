@@ -12,7 +12,7 @@ include("include/menu.php");
 if (isset($_GET['mode'])){
 	Mode_site();
 }else {
-	echo "partie centrale";
+	Mode_Default();
 }
 
 //Fin texte du site

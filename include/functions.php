@@ -3,7 +3,7 @@
 function Mode_site() {
 
 	if ($_GET['mode'] == install){
-		echo 'page install<br />';
+		Install();
 	}		
 
 
@@ -19,5 +19,16 @@ function Mode_site() {
 		echo 'page contact<br />';
 	}
 
+}
+
+function Install() {
+
+	echo ' Page install 2';	
+
+}
+
+function Mode_Default() {
+
+ 	echo 'texte centre';
 }
 ?>

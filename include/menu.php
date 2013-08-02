@@ -7,4 +7,4 @@
                 <li class="Rubrique"><a href="index.php?mode=contact">Contact</a></li>
         </ul>
 </div>
-
+<div id="content">
