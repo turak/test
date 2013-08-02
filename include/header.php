@@ -8,7 +8,7 @@
 <body>
 	
 <div id="bandeau" class="bandeau">
-Serveur-Debian.Org :<p> Tout sur la mise en place d'un serveur</p>
+Serveur-Debian.Org :<p> trucs & astuces pour Debian</p>
 
 </div>
 

@@ -1,14 +1,23 @@
 <?php
 
-function Formulaire_Contact() {
+function Mode_site() {
 
-echo "formulaire de contact a remplir";
+	if ($_GET['mode'] == install){
+		echo 'page install<br />';
+	}		
 
-}
 
-function Page_install() {
+	if ($_GET['mode'] == admin){
+		echo 'page Admin<br />';
+	}
 
-echo "page install";
+	if ($_GET['mode'] == tutos){
+		echo 'page tutos<br />';
+	}
+
+	if ($_GET['mode'] == contact){
+		echo 'page contact<br />';
+	}
 
 }
 ?>
